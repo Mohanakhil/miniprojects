@@ -1,0 +1,11 @@
+<web-app>
+<servlet>
+<servlet-name>installment</servlet-name>
+<servlet-class>com.nt.servlet.EmiServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>installment</servlet-name>
+<url-pattern>/emiurl</url-pattern>
+</servlet-mapping>
+</web-app>
